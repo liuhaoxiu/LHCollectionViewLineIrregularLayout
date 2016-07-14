@@ -1,0 +1,2 @@
+# LHCollectionViewLineIrregularLayout
+继承UICollectionViewLayout，Cell可以动态高度并按照Cell纵横间距布局的布局对象，支持可选不同布局逻辑.
