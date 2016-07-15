@@ -17,8 +17,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch
-    
     MainTableViewController *mVC = [MainTableViewController new];
     
     UINavigationController *nVC = [[UINavigationController alloc] initWithRootViewController:mVC];
