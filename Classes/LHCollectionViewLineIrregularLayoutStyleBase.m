@@ -10,6 +10,7 @@
 
 @interface LHCollectionViewLineIrregularLayoutStyleBase ()
 
+//画布高度，在布局数据未计算完时值为当前伸展的画布高度
 @property (nonatomic) CGFloat canvasHeight;
 //存储了每列的高度值
 @property (nonatomic) NSMutableArray *columnsHeight;
@@ -80,12 +81,10 @@
 
 - (CGFloat)canvasHeight
 {
-    if (!_canvasHeight) {
-        for(NSNumber *height in self.columnsHeight)
-        {
-            if ([height floatValue] > _canvasHeight) {
-                _canvasHeight = [height floatValue];
-            }
+    for(NSNumber *height in self.columnsHeight)
+    {
+        if ([height floatValue] > _canvasHeight) {
+            _canvasHeight = [height floatValue];
         }
     }
     return _canvasHeight;

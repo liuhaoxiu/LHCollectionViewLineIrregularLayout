@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "LHCollectionViewLineIrregularLayout.h"
+
 @interface ViewController : UIViewController
 
+@property (nonatomic) LHCollectionViewLineIrregularLayoutStyle collectionViewLineIrregularLayoutStyle;
 
 @end
 

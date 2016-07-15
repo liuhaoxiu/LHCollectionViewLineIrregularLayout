@@ -18,6 +18,7 @@
 		C5FC892F1D35EAE10030B18F /* LHCollectionViewLineIrregularLayoutStyleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FC892E1D35EAE10030B18F /* LHCollectionViewLineIrregularLayoutStyleBase.m */; };
 		C5FC89321D35EB1F0030B18F /* LHCollectionViewLineIrregularLayoutNormalStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FC89311D35EB1F0030B18F /* LHCollectionViewLineIrregularLayoutNormalStyle.m */; };
 		C5FC89351D35EB7B0030B18F /* LHCollectionViewLineIrregularLayoutStyleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FC89341D35EB7B0030B18F /* LHCollectionViewLineIrregularLayoutStyleFactory.m */; };
+		C5FC89381D3879570030B18F /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FC89371D3879570030B18F /* MainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		C5FC89311D35EB1F0030B18F /* LHCollectionViewLineIrregularLayoutNormalStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHCollectionViewLineIrregularLayoutNormalStyle.m; sourceTree = "<group>"; };
 		C5FC89331D35EB7B0030B18F /* LHCollectionViewLineIrregularLayoutStyleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCollectionViewLineIrregularLayoutStyleFactory.h; sourceTree = "<group>"; };
 		C5FC89341D35EB7B0030B18F /* LHCollectionViewLineIrregularLayoutStyleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHCollectionViewLineIrregularLayoutStyleFactory.m; sourceTree = "<group>"; };
+		C5FC89361D3879570030B18F /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		C5FC89371D3879570030B18F /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				C5FC89121D35D77E0030B18F /* LaunchScreen.storyboard */,
 				C5FC89151D35D77E0030B18F /* Info.plist */,
 				C5FC89041D35D77E0030B18F /* Supporting Files */,
+				C5FC89361D3879570030B18F /* MainTableViewController.h */,
+				C5FC89371D3879570030B18F /* MainTableViewController.m */,
 			);
 			path = LHCollectionViewLineIrregularLayout;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5FC89381D3879570030B18F /* MainTableViewController.m in Sources */,
 				C5FC892F1D35EAE10030B18F /* LHCollectionViewLineIrregularLayoutStyleBase.m in Sources */,
 				C5FC89321D35EB1F0030B18F /* LHCollectionViewLineIrregularLayoutNormalStyle.m in Sources */,
 				C5FC890C1D35D77E0030B18F /* ViewController.m in Sources */,

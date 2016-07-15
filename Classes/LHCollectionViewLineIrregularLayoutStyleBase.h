@@ -20,7 +20,7 @@
 @property (nonatomic) CGFloat verticalInteritemSpacing;
 //列总数
 @property (nonatomic, readonly) NSUInteger columnsTotal;
-//当前列索引
+//当前列索引，default value -1
 @property (nonatomic) NSInteger currentlyColumnIndex;
 //存储了每列的高度值
 @property (nonatomic, readonly) NSMutableArray *columnsHeight;

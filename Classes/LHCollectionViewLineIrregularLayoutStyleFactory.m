@@ -22,7 +22,6 @@
         case LHCollectionViewLineIrregularLayoutNormal:
             collectionViewLineIrregularLayoutStyle = [LHCollectionViewLineIrregularLayoutNormalStyle new];
             break;
-            
         default:
             @throw @"Need implement";
             break;
