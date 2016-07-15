@@ -12,6 +12,7 @@
 
 @implementation LHCollectionViewLineIrregularLayoutStyleFactory
 
+#pragma mark - Public Methods
 + (LHCollectionViewLineIrregularLayoutStyleBase *)creatorWithStyle:(LHCollectionViewLineIrregularLayoutStyle)style
 {
     LHCollectionViewLineIrregularLayoutStyleBase *collectionViewLineIrregularLayoutStyle;

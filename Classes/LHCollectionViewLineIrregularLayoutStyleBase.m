@@ -90,5 +90,4 @@
     return _canvasHeight;
 }
 
-
 @end
