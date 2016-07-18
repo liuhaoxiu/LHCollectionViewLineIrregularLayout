@@ -68,7 +68,7 @@
 #pragma mark - Private Methods
 - (CGRect)frameForCellAtIndexPath:(NSIndexPath *)indexPath
 {
-    CGFloat cellHeight;
+    CGFloat cellHeight = 0.0;
     if ([self.collectionView.delegate conformsToProtocol:@protocol(UICollectionViewDelegateLineIrregularLayout)]) {
         if ([self.collectionView.delegate respondsToSelector:@selector(collectionView:layout:heightForItemAtIndexPath:)]) {
             CGFloat height = ((CGFloat(*)(id, SEL, UICollectionView *,LHCollectionViewLineIrregularLayout *, NSIndexPath *))objc_msgSend)(self.collectionView.delegate, @selector(collectionView:layout:heightForItemAtIndexPath:), self.collectionView, self, indexPath);
